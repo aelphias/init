@@ -1,0 +1,21 @@
+##service##
+
+top
+df
+ps
+kill
+resau:
+ifconfig
+ping
+netstat - 	show network status
+traceroute
+##fichier des reseaux##
+
+hosts
+cat /etc/hosts
+networks
+host.conf
+resolv.conf -- dns name de server
+/etc/network/interfaces
+----
+operations development (DevOps).
