@@ -1,1 +1,2 @@
-ifconfig | grep broadcast
+ifconfig en0 | sed -n -e 's/^.*broadcast //p'
+arp -a | awk '{print $2}' | tr -d ' ()'
