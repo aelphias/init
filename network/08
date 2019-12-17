@@ -1,0 +1,5 @@
+host slash16.org
+take address and put it after :ip/ in the next line 
+curl -s https://www.whoismyisp.org/ip/13.33.242.31 | grep isp | head -2 | tail -1
+#or
+whois slash16.org | grep "Name Server" | head -1 | awk '{print $3}'
