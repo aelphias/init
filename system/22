@@ -1,0 +1,2 @@
+sudo adduser _username_here_ #to add user
+sudo usermod -aG sudo stduser # to put user in sudoers file

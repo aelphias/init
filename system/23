@@ -1,0 +1,4 @@
+#add new user
+#forward ports in virtualbox 
+#login with command >ssh -p '2222' 'newuser@127.0.0.1' #-p+ port
+#in graphical interface type username and type password

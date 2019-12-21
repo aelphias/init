@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Name?"
+read varname
+echo "$varname?"
+useradd -m $varname
+passwd $varname

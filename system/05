@@ -1,0 +1,2 @@
+ps -aux | grep ssh
+systemctl status ssh
