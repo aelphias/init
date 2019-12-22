@@ -4,3 +4,4 @@ read varname
 echo "$varname?"
 useradd -m $varname
 passwd $varname
+usermod -aG sudo $varname

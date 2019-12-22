@@ -1,3 +1,3 @@
-run traceroute and look at the first few lines
-find when your local ip changes from 192... to something else
-(or other lan network address to wan address)
+#when your local ip changes from 192... to something else
+#(or other lan network address to wan address)
+#192.168.2.9 and 217.67.187.49
