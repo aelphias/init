@@ -1,2 +1,1 @@
-sudo vi /etc/hostname
-sudo vi /etc/hosts
+hostname name_you_want

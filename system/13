@@ -1,1 +1,1 @@
-l -f /var/log/syslog &
+top

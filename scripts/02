@@ -3,5 +3,5 @@ echo Hello, what user would you like to delete?
 read varname
 pkill -9 -u `id -u $varname `
 userdel $varname
-echo "We have following human users on the system:"
+echo "We have following human users on the system now:"
 cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1

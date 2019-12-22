@@ -1,1 +1,5 @@
-systemctl list-units --type service
+ls /etc/rc*.d | grep S
+#"S" means runlevel, services that are started at boot,
+# manage by command rcconf or sysv-rc-conf
+#systemctl list-units --type service
+#enabled daemons
